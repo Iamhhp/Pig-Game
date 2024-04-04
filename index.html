@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pig Game</title>
+  </head>
+
+  <body>
+    <h1 class="title">Pig Game</h1>
+
+    <div class="container">
+      <section class="right">
+        <div class="player-1 active">
+          <h1 class="name-player">Player-1</h1>
+          <h3 class="total-finally">73</h3>
+
+          <div class="total-current">
+            Current
+            <div class="count">0</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="middle">
+        <button type="button" class="btn btn-new">New Game</button>
+        <img src="./assets/img/dice-1.png" class="img-roll img-shack" />
+        <button type="button" class="btn btn-roll">Roll DICE</button>
+        <button type="button" class="btn btn-hold">HOLD</button>
+      </section>
+
+      <section class="left">
+        <div class="player-2">
+          <h1 class="name-player">Player-2</h1>
+          <h3 class="total-finally">72</h3>
+
+          <div class="total-current">
+            Current
+            <div class="count">14</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="overlay">
+      <div class="box-modal">
+        <p class="text-modal">Player-1 Win! 🎉🎉🎉</p>
+
+        <button type="button" class="btn-new-game">New Game</button>
+      </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
